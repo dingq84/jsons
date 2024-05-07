@@ -1,0 +1,259 @@
+{
+  "name": {
+    "zh-hant": "公告欄",
+    "zh-cn": "公告栏",
+    "en": "Announcement bar",
+    "th": "แถบการประกาศ",
+    "vi": "Thanh thông báo"
+  },
+  "type": "announcement",
+  "settings": [
+    {
+      "type": "select",
+      "id": "display_method",
+      "label": {
+        "zh-hant": "展示方式",
+        "zh-cn": "展示方式",
+        "en": "Display Method",
+        "th": "วิธีการแสดง",
+        "vi": "Phương thức hiển thị"
+      },
+      "default": "slider",
+      "options": [
+        {
+          "value": "slider",
+          "label": {
+            "zh-hant": "輪播",
+            "zh-cn": "轮播",
+            "en": "Slider",
+            "th": "ตัวเลื่อน",
+            "vi": "Trình chiếu slide"
+          }
+        },
+        {
+          "value": "list_all",
+          "label": {
+            "zh-hant": "展開全部",
+            "zh-cn": "展开全部",
+            "en": "List All",
+            "th": "รายการทั้งหมด",
+            "vi": "Hiển thị tất cả"
+          }
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "duration",
+      "label": {
+        "zh-hant": "輪播間隔",
+        "zh-cn": "轮播间隔",
+        "en": "Duration",
+        "th": "ระยะเวลา",
+        "vi": "Khoảng thời gian"
+      },
+      "default": 5,
+      "min": 1,
+      "max": 15,
+      "step": 1,
+      "unit": "s"
+    }
+  ],
+  "max_blocks": 3,
+  "blocks": [
+    {
+      "name": {
+        "zh-hant": "文字",
+        "zh-cn": "文字",
+        "en": "Text",
+        "th": "ข้อความ",
+        "vi": "Văn bản"
+      },
+      "type": "text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "is_multi_lang": true,
+          "label": {
+            "zh-hant": "標題",
+            "zh-cn": "标题",
+            "en": "Title",
+            "th": "ชื่อเรื่อง",
+            "vi": "Tiêu đề"
+          },
+          "default": "Welcome"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "is_multi_lang": true,
+          "label": {
+            "zh-hant": "連結",
+            "zh-cn": "连结",
+            "en": "Link",
+            "th": "ลิงก์",
+            "vi": "Đường link"
+          },
+          "placeholder": "e.g. www.shoplineapp.com"
+        },
+        {
+          "type": "radio",
+          "id": "link_target",
+          "label": {
+            "zh-hant": "連結開啟方式",
+            "zh-cn": "连结开启方式",
+            "en": "Open Link in",
+            "th": "เปิดลิงก์ใน",
+            "vi": "Mở đường link trong"
+          },
+          "default": "_self",
+          "options": [
+            {
+              "label": {
+                "zh-hant": "當前分頁",
+                "zh-cn": "当前分页",
+                "en": "Current window",
+                "th": "หน้าต่างปัจจุบัน",
+                "vi": "Cửa sổ hiện tại"
+              },
+              "value": "_self"
+            },
+            {
+              "label": {
+                "zh-hant": "另開分頁",
+                "zh-cn": "另开分页",
+                "en": "New window",
+                "th": "หน้าต่างใหม่",
+                "vi": "Cửa sổ mới"
+              },
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": {
+        "zh-hant": "活動倒數",
+        "zh-cn": "活动倒数",
+        "en": "Countdown",
+        "th": "นับถอยหลัง",
+        "vi": "Đếm ngược"
+      },
+      "type": "countdown",
+      "settings": [
+        {
+          "type": "time_range",
+          "id": "period",
+          "label": {
+            "zh-hant": "活動期間(<%=merchant_utc_offset%>)",
+            "zh-cn": "活动期间(<%=merchant_utc_offset%>)",
+            "en": "Period(<%=merchant_utc_offset%>)",
+            "th": "ช่วงเวลา(<%=merchant_utc_offset%>)",
+            "vi": "Thời gian(<%=merchant_utc_offset%>)"
+          },
+          "placeholder": ["Start Date", "End Date"],
+          "default": []
+        },
+        {
+          "type": "text",
+          "id": "start_title",
+          "is_multi_lang": true,
+          "label": {
+            "zh-hant": "開始倒數標題",
+            "zh-cn": "开始倒数标题",
+            "en": "Start Countdown Title",
+            "th": "เริ่มต้นหัวข้อการนับถอยหลัง",
+            "vi": "Tiêu đề bắt đầu đếm ngược"
+          },
+          "default": "Campaign starts at"
+        },
+        {
+          "type": "text",
+          "id": "end_title",
+          "is_multi_lang": true,
+          "label": {
+            "zh-hant": "結束倒數標題",
+            "zh-cn": "结束倒数标题",
+            "en": "End Countdown Title",
+            "th": "สิ้นสุดหัวข้อการนับถอยหลัง",
+            "vi": "Tiêu đề kết thúc đếm ngược"
+          },
+          "default": "Campaign ends at"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "is_multi_lang": true,
+          "label": {
+            "zh-hant": "按鈕文字",
+            "zh-cn": "按钮文字",
+            "en": "Button Text",
+            "th": "ข้อความปุ่ม",
+            "vi": "Nội dung nút"
+          },
+          "default": "Enter"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "is_multi_lang": true,
+          "label": {
+            "zh-hant": "連結",
+            "zh-cn": "连结",
+            "en": "Link To",
+            "th": "ลิงก์ไปที่",
+            "vi": "Liên kết đến"
+          },
+          "placeholder": "e.g. www.shoplineapp.com"
+        },
+        {
+          "type": "radio",
+          "id": "link_target",
+          "label": {
+            "zh-hant": "連結開啟方式",
+            "zh-cn": "连结开启方式",
+            "en": "Open Link in",
+            "th": "เปิดลิงก์ใน",
+            "vi": "Mở đường link bằng"
+          },
+          "default": "_self",
+          "options": [
+            {
+              "label": {
+                "zh-hant": "當前分頁",
+                "zh-cn": "当前分页",
+                "en": "Current Window",
+                "th": "หน้าต่างปัจจุบัน",
+                "vi": "Cửa sổ hiện tại"
+              },
+              "value": "_self"
+            },
+            {
+              "label": {
+                "zh-hant": "另開分頁",
+                "zh-cn": "另开分页",
+                "en": "New Window",
+                "th": "หน้าต่างใหม่",
+                "vi": "Cửa sổ mới"
+              },
+              "value": "_blank"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "zh-hant": "公告欄",
+        "zh-cn": "公告栏",
+        "en": "Announcement bar",
+        "th": "แถบการประกาศ",
+        "vi": "Thanh thông báo"
+      }
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "name": "頁尾",
+  "settings": [
+    {
+      "show_payment_icon": "支付圖標"
+    },
+    {
+      "group_header": "支付圖標"
+    },
+    {
+      "payment_text_align": "對齊方式"
+    },
+    {
+      "show_anti_fraud": "防詐騙提示"
+    },
+    {
+      "group_header": "防詐騙提示"
+    },
+    {
+      "anti_fraud_content": "內容"
+    },
+    { "type": "group_end" },
+    {
+      "anti_fraud_text_align": "對齊方式"
+    },
+    {
+      "show_copyright": "版權聲明"
+    },
+    {
+      "group_header": "版權聲明"
+    },
+    {
+      "copyright_content": "內容"
+    },
+    {
+      "copyright_text_align": "對齊方式"
+    },
+    {
+      "show_language_selector": "語言選項",
+      "info": "隱藏語言同頁首設定"
+    },
+    {
+      "show_currency_selector": "貨幣選擇"
+    },
+    {
+      "selector_text_align": "對齊方式"
+    },
+
+    {
+      "group_tabs": "邊距",
+      "help": {
+        "link": "https://support.shoplineapp.com/hc/zh-tw/articles/16284820590361"
+      },
+      "popover": [
+        {
+          "description": "元件上下邊距"
+        },
+        {
+          "description": "組件側邊邊距"
+        },
+        {
+          "description": "元件四周邊距"
+        }
+      ]
+    },
+
+    {
+      "grid_item_text_align": "文字對齊"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "文字",
+      "settings": [
+        {
+          "title": "標題"
+        },
+        {
+          "content": "內容"
+        }
+      ]
+    },
+    {
+      "name": "圖片",
+      "settings": [
+        {
+          "placeholder": "建議圖片寬度大於等於 2000px",
+          "label": "桌機"
+        },
+        {
+          "placeholder": "建議圖片寬度大於等於 1080px",
+          "label": "手機"
+        },
+        {
+          "object_position": "圖片裁切",
+          "options": [
+            {
+              "label": "上左"
+            },
+            {
+              "label": "上中"
+            },
+            {
+              "label": "上右"
+            },
+            {
+              "label": "中左"
+            },
+            {
+              "label": "中中"
+            },
+            {
+              "label": "中右"
+            },
+            {
+              "label": "下左"
+            },
+            {
+              "label": "下中"
+            },
+            {
+              "label": "下右"
+            }
+          ]
+        },
+        {
+          "mask": "遮罩"
+        },
+        {
+          "title": "標題"
+        },
+        {
+          "image_alt": "圖片 ALT"
+        },
+        {
+          "link": "連結"
+        },
+        {
+          "link_target": "連結開啟方式",
+          "options": [
+            {
+              "label": "當前分頁"
+            },
+            {
+              "label": "另開分頁"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "社群圖標",
+      "settings": [
+        {
+          "title": "標題"
+        },
+        {
+          "content": "內容"
+        },
+        {
+          "facebook": "Facebook"
+        },
+        {
+          "ig": "Instagram"
+        },
+        { "line": "line" },
+        { "youtube": "youtube" },
+        {
+          "twitter": "twitter"
+        },
+        { "linkedin": "linkedin" },
+        { "telegram": "telegram" },
+        { "xiaohongshu": "xiaohongshu" },
+        { "tiktok": "tiktok" },
+        {
+          "whatsapp": "whatsapp"
+        },
+        {
+          "wechat": "wechat"
+        }
+      ]
+    },
+    {
+      "name": "訂閱",
+      "settings": [
+        {
+          "title": "標題"
+        },
+        {
+          "content": "內文(選填)"
+        },
+        {
+          "input_placeholder": "輸入框提示文字"
+        },
+        {
+          "button_text": "按鈕文字"
+        }
+      ]
+    },
+    {
+      "name": "客製化語法",
+      "settings": [
+        {
+          "paragraph": "藉由客製化語法編輯頁面，可參考以下常見問題文章\n除 HTML、CSS、Java Script外，此元件只支援 FAQ 列舉的 liquid 語法\n[FAQ](https://support.shoplineapp.com/hc/zh-tw/articles/8238084404249)"
+        },
+        {
+          "custom_liquid": "語法"
+        }
+      ],
+      "presets": [
+        {
+          "name": "客製化語法",
+          "category": "擴充功能"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "頁尾",
+      "blocks": [
+        {
+          "settings": {
+            "title": "關於我們",
+            "content": "<p>品牌故事<br />品牌精神<br />團隊成員</p>"
+          }
+        },
+        {
+          "settings": {
+            "title": "顧客服務",
+            "content": "<p>常見問題<br /><a href='/about/delivery-policy'>運送服務方式</a><br />付款服務方式<br /><a href='/about/policy'>退換貨政策</a><br />條款與細則<br /><a href='/about/anti-fraud'>防詐騙宣導</a></p>"
+          }
+        },
+        {
+          "settings": {
+            "title": "聯絡我們",
+            "content": "<p>電話 / XX-XXX-XXX-XXX<br />時間 / XXXX-XXXX<br />電郵 / XXX@XXXX.COM</p>"
+          }
+        }
+      ]
+    }
+  ]
+}

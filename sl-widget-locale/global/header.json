@@ -1,0 +1,143 @@
+{
+  "name": "頁首",
+  "settings": [
+    {
+      "desktop_logo_size": "尺寸(桌機）"
+    },
+    {
+      "desktop_logo_position": "位置(桌機）",
+      "options": [
+        {
+          "label": "與目錄同行，置左"
+        },
+        {
+          "label": "與目錄同行，置中"
+        },
+        {
+          "label": "目錄上方，置左"
+        },
+        {
+          "label": "目錄上方，置中"
+        }
+      ]
+    },
+    {
+      "mobile_logo_size": "尺寸(手機)"
+    },
+    {
+      "mobile_logo_position": "位置(手機)",
+      "options": [
+        {
+          "label": "與目錄同行，置左"
+        },
+        {
+          "label": "與目錄同行，置中"
+        },
+        {
+          "label": "目錄上方，置左"
+        },
+        {
+          "label": "目錄上方，置中"
+        }
+      ]
+    },
+    {
+      "label": "目錄"
+    },
+    {
+      "menu_align": "對齊方式(桌機）"
+    },
+    {
+      "is_sticky_header": "固定頁首"
+    },
+    {
+      "menu_padding": "邊距"
+    },
+    {
+      "search_bar_style": "搜尋列",
+      "options": [
+        {
+          "none": "無"
+        },
+        {
+          "icon": "按鈕"
+        },
+        {
+          "icon_and_text": "按鈕 & 文字"
+        },
+        {
+          "search_bar": "搜尋列"
+        }
+      ]
+    },
+    {
+      "language_selector_style": "語言選項",
+      "options": [
+        {
+          "none": "無"
+        },
+        {
+          "icon": "按鈕"
+        },
+        {
+          "icon_and_text": "按鈕 & 文字"
+        }
+      ]
+    },
+    {
+      "hide_languages": "隱藏特定語言",
+      "info": "您可以設定隱藏特定語言，消費者於網站切換語言時將不會看到隱藏的語言"
+    },
+    {
+      "currency_selector_style": "貨幣選項",
+      "options": [
+        {
+          "none": "無"
+        },
+        {
+          "icon": "按鈕"
+        },
+        {
+          "icon_and_text": "按鈕 & 文字"
+        }
+      ]
+    },
+    {
+      "message_style": "聯絡我們",
+      "options": [
+        {
+          "none": "無"
+        },
+        {
+          "icon": "按鈕"
+        },
+        {
+          "icon_and_text": "按鈕 & 文字"
+        }
+      ]
+    },
+    {
+      "member_center_style": "會員中心",
+      "options": [
+        {
+          "icon": "按鈕"
+        },
+        {
+          "icon_and_text": "按鈕 & 文字"
+        }
+      ]
+    },
+    {
+      "shopping_cart_style": "購物車",
+      "options": [
+        {
+          "icon": "按鈕"
+        },
+        {
+          "icon_and_text": "按鈕 & 文字"
+        }
+      ]
+    }
+  ],
+  "presets": "頁首"
+}

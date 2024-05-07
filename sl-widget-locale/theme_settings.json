@@ -1,0 +1,1635 @@
+{
+  "theme_settings": [
+    {
+      "name": {
+        "en": "Color",
+        "zh-hant": "色彩",
+        "zh-cn": "色彩",
+        "th": "สี",
+        "vi": "Màu sắc"
+      },
+      "settings": [
+        {
+          "type": "group_header",
+          "icon": "style",
+          "label": {
+            "en": "Page",
+            "zh-hant": "頁面",
+            "zh-cn": "页面",
+            "th": "หน้าเพจ",
+            "vi": "Trang"
+          }
+        },
+        {
+          "id": "page_background",
+          "type": "color_picker",
+          "label": {
+            "en": "Background",
+            "zh-hant": "背景",
+            "zh-cn": "背景",
+            "th": "พื้นหลัง",
+            "vi": "Nền"
+          },
+          "default": "FFFFFF"
+        },
+        {
+          "id": "page_text",
+          "type": "color_picker",
+          "label": {
+            "en": "Text",
+            "zh-hant": "文字",
+            "zh-cn": "文字",
+            "th": "ข้อความ",
+            "vi": "Văn bản"
+          },
+          "default": "333333"
+        },
+        {
+          "id": "page_text_link",
+          "type": "color_picker",
+          "label": {
+            "en": "Text link",
+            "zh-hant": "超連結",
+            "zh-cn": "超连结",
+            "th": "ลิงก์ข้อความ",
+            "vi": "Đường link"
+          },
+          "default": "3493fb"
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "style",
+          "label": {
+            "en": "Announcement Bar",
+            "zh-hant": "公告欄",
+            "zh-cn": "公告栏",
+            "th": "แถบประกาศ",
+            "vi": "Thanh thông báo"
+          }
+        },
+        {
+          "id": "announcement_background",
+          "type": "color_picker",
+          "label": {
+            "en": "Background",
+            "zh-hant": "背景",
+            "zh-cn": "背景",
+            "th": "พื้นหลัง",
+            "vi": "Nền"
+          },
+          "default": "C74060"
+        },
+        {
+          "id": "announcement_text",
+          "type": "color_picker",
+          "label": {
+            "en": "Text",
+            "zh-hant": "文字",
+            "zh-cn": "文字",
+            "th": "ข้อความ",
+            "vi": "Văn bản"
+          },
+          "default": "FFFFFF"
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "style",
+          "label": {
+            "en": "Header",
+            "zh-hant": "頁首",
+            "zh-cn": "页首",
+            "th": "ส่วนหัว",
+            "vi": "Đầu trang"
+          }
+        },
+        {
+          "id": "header_background",
+          "type": "color_picker",
+          "label": {
+            "en": "Background",
+            "zh-hant": "背景",
+            "zh-cn": "背景",
+            "th": "พื้นหลัง",
+            "vi": "Nền"
+          },
+          "default": "FFFFFF"
+        },
+        {
+          "id": "header_text",
+          "type": "color_picker",
+          "label": {
+            "en": "Text",
+            "zh-hant": "文字",
+            "zh-cn": "文字",
+            "th": "ข้อความ",
+            "vi": "Văn bản"
+          },
+          "default": "333333"
+        },
+        {
+          "id": "header_icon",
+          "type": "color_picker",
+          "label": {
+            "en": "Icon",
+            "zh-hant": "圖標",
+            "zh-cn": "图标",
+            "th": "ไอคอน",
+            "vi": "Biểu tượng"
+          },
+          "default": "333333"
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "style",
+          "label": {
+            "en": "Primary button",
+            "zh-hant": "主要按鈕",
+            "zh-cn": "主要按钮",
+            "th": "ธีมหลัก",
+            "vi": "Nút chính"
+          }
+        },
+        {
+          "id": "primary_background",
+          "type": "color_picker",
+          "label": {
+            "en": "Background",
+            "zh-hant": "背景",
+            "zh-cn": "背景",
+            "th": "พื้นหลัง",
+            "vi": "Nền"
+          },
+          "default": "C74060"
+        },
+        {
+          "id": "primary_text",
+          "type": "color_picker",
+          "label": {
+            "en": "Text",
+            "zh-hant": "文字",
+            "zh-cn": "文字",
+            "th": "ข้อความ",
+            "vi": "Văn bản"
+          },
+          "default": "FFFFFF"
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "style",
+          "label": {
+            "en": "Buy now button",
+            "zh-hant": "立即購買按鈕",
+            "zh-cn": "立即购买按钮",
+            "th": "ปุ่มซื้อ",
+            "vi": "Nút mua"
+          }
+        },
+        {
+          "id": "buy_now_background",
+          "type": "color_picker",
+          "label": {
+            "en": "Background",
+            "zh-hant": "背景",
+            "zh-cn": "背景",
+            "th": "พื้นหลัง",
+            "vi": "Nền"
+          },
+          "default": "FB7813"
+        },
+        {
+          "id": "buy_now_text",
+          "type": "color_picker",
+          "label": {
+            "en": "Text",
+            "zh-hant": "文字",
+            "zh-cn": "文字",
+            "th": "ข้อความ",
+            "vi": "Văn bản"
+          },
+          "default": "FFFFFF"
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "style",
+          "label": {
+            "en": "Product Promotion Label",
+            "zh-hant": "商品促銷標籤",
+            "zh-cn": "商品促销标签",
+            "th": "ป้ายโปรโมชั่นสินค้า",
+            "vi": "Nhãn chương trình khuyến mãi"
+          }
+        },
+        {
+          "id": "product_promotion_label_background",
+          "type": "color_picker",
+          "label": {
+            "en": "Background",
+            "zh-hant": "背景",
+            "zh-cn": "背景",
+            "th": "พื้นหลัง",
+            "vi": "Nền"
+          },
+          "default": "C0392B"
+        },
+        {
+          "id": "product_promotion_label_text",
+          "type": "color_picker",
+          "label": {
+            "en": "Text",
+            "zh-hant": "文字",
+            "zh-cn": "文字",
+            "th": "ข้อความ",
+            "vi": "Văn bản"
+          },
+          "default": "FFFFFF"
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "style",
+          "label": {
+            "en": "Footer",
+            "zh-hant": "頁尾",
+            "zh-cn": "页尾",
+            "th": "ส่วนท้าย",
+            "vi": "Chân trang"
+          }
+        },
+        {
+          "id": "footer_background",
+          "type": "color_picker",
+          "label": {
+            "en": "Background",
+            "zh-hant": "背景",
+            "zh-cn": "背景",
+            "th": "พื้นหลัง",
+            "vi": "Nền"
+          },
+          "default": "FFFFFF"
+        },
+        {
+          "id": "footer_text",
+          "type": "color_picker",
+          "label": {
+            "en": "Text",
+            "zh-hant": "文字",
+            "zh-cn": "文字",
+            "th": "ข้อความ",
+            "vi": "Văn bản"
+          },
+          "default": "333333"
+        },
+        {
+          "id": "footer_icon",
+          "type": "color_picker",
+          "label": {
+            "en": "Icon",
+            "zh-hant": "圖標",
+            "zh-cn": "图标",
+            "th": "ไอคอน",
+            "vi": "Biểu tượng"
+          },
+          "default": "333333"
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "style",
+          "label": {
+            "en": "Copyright",
+            "zh-hant": "版權聲明",
+            "zh-cn": "版权声明",
+            "th": "ลิขสิทธิ์",
+            "vi": "Bản quyền"
+          }
+        },
+        {
+          "id": "copyright_background",
+          "type": "color_picker",
+          "label": {
+            "en": "Background",
+            "zh-hant": "背景",
+            "zh-cn": "背景",
+            "th": "พื้นหลัง",
+            "vi": "Nền"
+          },
+          "default": "F7F7F7"
+        },
+        {
+          "id": "copyright_text",
+          "type": "color_picker",
+          "label": {
+            "en": "Text",
+            "zh-hant": "文字",
+            "zh-cn": "文字",
+            "th": "ข้อความ",
+            "vi": "Văn bản"
+          },
+          "default": "999999"
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "style",
+          "label": {
+            "zh-hant": "防詐騙提示",
+            "zh-cn": "防诈骗提示",
+            "en": "Anti Fraud Notice",
+            "th": "แจ้งเตือนต่อต้านการฉ้อโกง",
+            "vi": "Thông báo chống gian lận"
+          }
+        },
+        {
+          "id": "anti_fraud_background",
+          "type": "color_picker",
+          "label": {
+            "en": "Background",
+            "zh-hant": "背景",
+            "zh-cn": "背景",
+            "th": "พื้นหลัง",
+            "vi": "Nền"
+          },
+          "default": "F7F7F7"
+        },
+        {
+          "id": "anti_fraud_text",
+          "type": "color_picker",
+          "label": {
+            "en": "Text",
+            "zh-hant": "文字",
+            "zh-cn": "文字",
+            "th": "ข้อความ",
+            "vi": "Văn bản"
+          },
+          "default": "999999"
+        },
+        {
+          "type": "group_end"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Font",
+        "zh-hant": "文字",
+        "zh-cn": "文字",
+        "th": "ฟอนต์",
+        "vi": "Font chữ"
+      },
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": {
+            "en": "The font will apply to the whole store and font size will be only applied to advanced pages",
+            "zh-hant": "文字字體會套用在全站，而文字大小只會套用在進階分頁",
+            "zh-cn": "文字字体会套用在全站，而文字大小只会套用在进阶分页",
+            "th": "แบบฟอนต์นี้จะถูกใช้กับหน้าเพจร้านค้าทั้งหมด และขนาดฟอนต์จะถูกใช้เฉพาะหน้าเพจแบบขั้นสูงเท่านั้น",
+            "vi": "Font chữ sẽ áp dụng cho toàn bộ cửa hàng và kích thước font chữ sẽ chỉ được áp dụng cho các trang nâng cao"
+          }
+        },
+        {
+          "id": "font_title",
+          "type": "font_picker",
+          "label": {
+            "en": "Title",
+            "zh-hant": "標題",
+            "zh-cn": "标题",
+            "th": "ชื่อ",
+            "vi": "Tiêu đề"
+          },
+          "default": "Noto Sans"
+        },
+        {
+          "id": "font_size_title",
+          "type": "tabs",
+          "label": {
+            "en": "Font Size",
+            "zh-hant": "字體大小",
+            "zh-cn": "字体大小",
+            "th": "ขนาดฟอนต์",
+            "vi": "Cỡ chữ"
+          },
+          "default": "1",
+          "options": [
+            {
+              "value": "1.2",
+              "label": {
+                "en": "L",
+                "zh-hant": "大",
+                "zh-cn": "大",
+                "th": "ใหญ่",
+                "vi": "Lớn"
+              }
+            },
+            {
+              "value": "1",
+              "label": {
+                "en": "M",
+                "zh-hant": "中",
+                "zh-cn": "中",
+                "th": "กลาง",
+                "vi": "Trung bình"
+              }
+            },
+            {
+              "value": "0.8",
+              "label": {
+                "en": "S",
+                "zh-hant": "小",
+                "zh-cn": "小",
+                "th": "เล็ก",
+                "vi": "Nhỏ"
+              }
+            }
+          ]
+        },
+        {
+          "id": "font_paragraph",
+          "type": "font_picker",
+          "label": {
+            "en": "Paragraph",
+            "zh-hant": "內容",
+            "zh-cn": "内容",
+            "th": "ย่อหน้า",
+            "vi": "Đoạn văn"
+          },
+          "default": "Noto Sans"
+        },
+        {
+          "id": "font_size_paragraph",
+          "type": "tabs",
+          "label": {
+            "en": "Font Size",
+            "zh-hant": "字體大小",
+            "zh-cn": "字体大小",
+            "th": "ขนาดฟอนต์",
+            "vi": "Cỡ chữ"
+          },
+          "default": "1",
+          "options": [
+            {
+              "value": "1.2",
+              "label": {
+                "en": "L",
+                "zh-hant": "大",
+                "zh-cn": "大",
+                "th": "ใหญ่",
+                "vi": "Lớn"
+              }
+            },
+            {
+              "value": "1",
+              "label": {
+                "en": "M",
+                "zh-hant": "中",
+                "zh-cn": "中",
+                "th": "กลาง",
+                "vi": "Trung bình"
+              }
+            },
+            {
+              "value": "0.8",
+              "label": {
+                "en": "S",
+                "zh-hant": "小",
+                "zh-cn": "小",
+                "th": "เล็ก",
+                "vi": "Nhỏ"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Mobile",
+        "zh-hant": "手機",
+        "zh-cn": "手机",
+        "th": "โทรศัพท์มือถือ",
+        "vi": "Di động"
+      },
+      "settings": [
+        {
+          "type": "group_header",
+          "icon": "mobile",
+          "label": {
+            "en": "Collapse menu items",
+            "zh-hant": "手機目錄子目錄不展開",
+            "zh-cn": "手机目录子目录不展开",
+            "th": "ยุบรายการเมนูในมือถือตามค่าเริ่มต้น",
+            "vi": "Thu gọn các mục trong menu"
+          },
+          "popover": {
+            "description": {
+              "en": "Collapse menu items",
+              "zh-hant": "手機目錄子目錄不展開",
+              "zh-cn": "手机目录子目录不展开",
+              "th": "ยุบรายการเมนูในมือถือตามค่าเริ่มต้น",
+              "vi": "Thu gọn các mục trong menu"
+            },
+            "img": "https://static.shoplineapp.com/sl_widget/img/mobile_categories_collapsed.jpg"
+          }
+        },
+        {
+          "id": "mobile_categories_collapsed",
+          "type": "switch",
+          "label": {
+            "en": "Enable",
+            "zh-hant": "開啟",
+            "zh-cn": "开启",
+            "th": "เปิดใช้งาน",
+            "vi": "Bật"
+          },
+          "info": {
+            "en": "All subdirectories will be hidden on mobile menu by default",
+            "zh-hant": "手機版選單中的「網店目錄」預設收合子目錄",
+            "zh-cn": "手机版选单中的「网店目录」预设收合子目录",
+            "th": "ไดเรกทอรี่ย่อยทั้งหมดจะถูกซ่อนบนเมนูมือถือโดยค่าเริ่มต้น",
+            "vi": "Tất cả các mục con sẽ bị ẩn trong menu phiên bản di động theo mặc định"
+          },
+          "default": true
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "mobile",
+          "label": {
+            "en": "Hide categories on the mobile menu",
+            "zh-hant": "手機目錄隱藏商品分類",
+            "zh-cn": "手机目录隐藏商品分类",
+            "th": "แสดงหมวดหมู่สินค้า",
+            "vi": "Ẩn danh mục trong menu trên phiên bản điện thoại"
+          },
+          "popover": {
+            "description": {
+              "en": "Hide categories on the mobile menu",
+              "zh-hant": "手機目錄隱藏商品分類",
+              "zh-cn": "手机目录隐藏商品分类",
+              "th": "แสดงหมวดหมู่สินค้า",
+              "vi": "Ẩn danh mục trong menu trên phiên bản điện thoại"
+            },
+            "img": "https://static.shoplineapp.com/sl_widget/img/mobile_categories_removed.jpg"
+          }
+        },
+        {
+          "id": "mobile_categories_removed",
+          "type": "switch",
+          "label": {
+            "en": "Enable",
+            "zh-hant": "開啟",
+            "zh-cn": "开启",
+            "th": "เปิดใช้งาน",
+            "vi": "Bật"
+          },
+          "info": {
+            "en": "Product categories will not be shown on the mobile menu",
+            "zh-hant": "所有商品分類不會顯示在手機目錄 > 分類",
+            "zh-cn": "所有商品分类不会显示在手机目录 > 分类",
+            "th": "หมวดหมู่สินค้าจะไม่แสดงบนเมนูมือถือ",
+            "vi": "Danh mục sản phẩm sẽ không hiển thị trong menu trên phiên bản điện thoại"
+          },
+          "default": false
+        },
+        {
+          "type": "group_end"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Product",
+        "zh-hant": "商品",
+        "zh-cn": "商品",
+        "th": "สินค้า",
+        "vi": "Sản phẩm"
+      },
+      "settings": [
+        {
+          "type": "group_header",
+          "icon": "cart",
+          "label": {
+            "en": "Collapse Categories",
+            "zh-hant": "子分類不展開",
+            "zh-cn": "子分类不展开",
+            "th": "ยุบหมวดหมู่สินค้า",
+            "vi": "Thu gọn danh mục"
+          },
+          "popover": {
+            "description": {
+              "en": "Collapse Categories",
+              "zh-hant": "子分類不展開",
+              "zh-cn": "子分类不展开",
+              "th": "ยุบหมวดหมู่สินค้า",
+              "vi": "Thu gọn danh mục"
+            },
+            "img": "https://static.shoplineapp.com/sl_widget/img/categories_collapsed.jpg"
+          }
+        },
+        {
+          "type": "tags",
+          "labels": [
+            {
+              "en": "Product listing page",
+              "zh-hant": "列表頁",
+              "zh-cn": "列表页",
+              "th": "หน้ารายการสินค้า",
+              "vi": "Trang danh sách sản phẩm"
+            },
+            {
+              "en": "Mobile menu",
+              "zh-hant": "手機目錄",
+              "zh-cn": "手机目录",
+              "th": "เมนูบนมือถือ",
+              "vi": "Menu phiên bản điện thoại"
+            }
+          ]
+        },
+        {
+          "id": "categories_collapsed",
+          "type": "switch",
+          "label": {
+            "en": "Enable",
+            "zh-hant": "開啟",
+            "zh-cn": "开启",
+            "th": "เปิดใช้งาน",
+            "vi": "Bật"
+          },
+          "info": {
+            "en": "The Category section on the desktop product listing page will collapse all sub-categories by default",
+            "zh-hant": "網頁版商品列表頁中的「商品分類」會收合所有子分類",
+            "zh-cn": "网页版商品列表页中的「商品分类」会收合所有子分类",
+            "th": "ส่วนหมวดหมู่ในเดสก์ท็อปของหน้ารายการสินค้าจะย่อหมวดหมู่ย่อยทั้งหมด ซึ่งถูกตั้งเป็นค่าพื้นฐานไว้",
+            "vi": "Phần danh mục phụ thuộc danh mục trên trang danh sách sản phẩm phiên bản máy tính sẽ được thu gọn theo mặc định"
+          },
+          "default": true
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "cart",
+          "label": {
+            "en": "Auto-Crop Product Image",
+            "zh-hant": "自動裁剪商品圖",
+            "zh-cn": "自动裁剪商品图",
+            "th": "ครอบตัดรูปภาพสินค้า",
+            "vi": "Cắt ảnh sản phẩm"
+          },
+          "popover": {
+            "description": {
+              "en": "Auto-Crop Product Image",
+              "zh-hant": "自動裁剪商品圖",
+              "zh-cn": "自动裁剪商品图",
+              "th": "ครอบตัดรูปภาพสินค้า",
+              "vi": "Cắt ảnh sản phẩm"
+            },
+            "img": "https://static.shoplineapp.com/sl_widget/img/image_fill.jpg"
+          }
+        },
+        {
+          "type": "tags",
+          "labels": [
+            {
+              "en": "Product listing page",
+              "zh-hant": "列表頁",
+              "zh-cn": "列表页",
+              "th": "หน้ารายการสินค้า",
+              "vi": "Trang danh sách sản phẩm"
+            },
+            {
+              "en": "Advanced page widget",
+              "zh-hant": "進階分頁元件",
+              "zh-cn": "进阶分页元件",
+              "th": "วิดเจ็ตหน้าเพจขั้นสูง",
+              "vi": "Thành phần trang nâng cao"
+            },
+            {
+              "en": "Campaign page",
+              "zh-hant": "活動頁",
+              "zh-cn": "活动页",
+              "th": "หน้าแคมเปญ",
+              "vi": "Trang chiến dịch"
+            }
+          ]
+        },
+        {
+          "id": "image_fill",
+          "type": "switch",
+          "label": {
+            "en": "Enable",
+            "zh-hant": "開啟",
+            "zh-cn": "开启",
+            "th": "เปิดใช้งาน",
+            "vi": "Bật"
+          },
+          "info": {
+            "en": "Product image will be auto-cropped to fit",
+            "zh-hant": "自動把商品圖片裁剪成設計預設相框的大小",
+            "zh-cn": "自动把商品图片裁剪成设计预设相框的大小",
+            "th": "รูปภาพสินค้าของคุณจะตัดรูปภาพให้พอดี",
+            "vi": "Ảnh sản phẩm sẽ được cắt để vừa với khung"
+          },
+          "default": true
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "cart",
+          "label": {
+            "en": "Variation Image Style",
+            "zh-hant": "規格選項圖片顯示樣式",
+            "zh-cn": "规格选项图片显示样式",
+            "th": "สไตล์ของรูปภาพตัวเลือก",
+            "vi": "Kiểu hình ảnh biến thể"
+          },
+          "popover": {
+            "description": {
+              "en": "Variation Image Style",
+              "zh-hant": "規格選項圖片顯示樣式",
+              "zh-cn": "规格选项图片显示样式",
+              "th": "สไตล์ของรูปภาพตัวเลือก",
+              "vi": "Kiểu hình ảnh biến thể"
+            },
+            "img": "https://static.shoplineapp.com/sl_widget/img/variation_image_style.jpg"
+          }
+        },
+        {
+          "type": "tags",
+          "labels": [
+            {
+              "en": "Product detail page",
+              "zh-hant": "明細頁",
+              "zh-cn": "明细页",
+              "th": "หน้ารายละเอียดสินค้า",
+              "vi": "Trang chi tiết sản phẩm"
+            },
+            {
+              "en": "Product listing page",
+              "zh-hant": "列表頁",
+              "zh-cn": "列表页",
+              "th": "หน้ารายการสินค้า",
+              "vi": "Trang danh sách sản phẩm"
+            },
+            {
+              "en": "Advanced page widget",
+              "zh-hant": "進階分頁元件",
+              "zh-cn": "进阶分页元件",
+              "th": "วิดเจ็ตหน้าเพจขั้นสูง",
+              "vi": "Thành phần trang nâng cao"
+            },
+            {
+              "en": "Campaign page",
+              "zh-hant": "活動頁",
+              "zh-cn": "活动页",
+              "th": "หน้าแคมเปญ",
+              "vi": "Trang chiến dịch"
+            }
+          ]
+        },
+        {
+          "id": "variation_image_style",
+          "type": "tabs",
+          "label": {
+            "en": "Variation Image Shape",
+            "zh-hant": "規格圖形狀",
+            "zh-cn": "规格图形状",
+            "th": "รูปทรงของรูปภาพตัวเลือก",
+            "vi": "Hình dạng hình ảnh biến thể"
+          },
+          "default": "square",
+          "options": [
+            {
+              "value": "square",
+              "icon": "square"
+            },
+            {
+              "value": "circle",
+              "icon": "circle"
+            }
+          ],
+          "prevent_reset": true
+        },
+        {
+          "id": "variation_image_size",
+          "type": "tabs",
+          "label": {
+            "en": "Variation Image Size",
+            "zh-hant": "規格圖大小",
+            "zh-cn": "规格图大小",
+            "th": "ขนาดของรูปภาพตัวเลือก",
+            "vi": "Kích thước hình ảnh biến thể"
+          },
+          "default": "md",
+          "options": [
+            {
+              "value": "sm",
+              "label": {
+                "en": "S",
+                "zh-hant": "小",
+                "zh-cn": "小",
+                "th": "เล็ก",
+                "vi": "Nhỏ"
+              }
+            },
+            {
+              "value": "md",
+              "label": {
+                "en": "M",
+                "zh-hant": "中",
+                "zh-cn": "中",
+                "th": "กลาง",
+                "vi": "Trung bình"
+              }
+            },
+            {
+              "value": "lg",
+              "label": {
+                "en": "L",
+                "zh-hant": "大",
+                "zh-cn": "大",
+                "th": "ใหญ่",
+                "vi": "Lớn"
+              }
+            }
+          ],
+          "prevent_reset": true
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "cart",
+          "label": {
+            "en": "Product Variation Display Style",
+            "zh-hant": "商品規格的顯示樣式",
+            "zh-cn": "商品规格的显示样式",
+            "th": "สไตล์การแสดงตัวเลือกสินค้า",
+            "vi": "Kiểu hiển thị biến thể sản phẩm"
+          },
+          "popover": [
+            {
+              "title": {
+                "en": "Product Variation Display Style",
+                "zh-hant": "商品規格的顯示樣式",
+                "zh-cn": "商品规格的显示样式",
+                "th": "สไตล์การแสดงตัวเลือกสินค้า",
+                "vi": "Kiểu hiển thị biến thể sản phẩm"
+              },
+              "description": {
+                "en": "Display variation options under the product",
+                "zh-hant": "商品下顯示規格選項",
+                "zh-cn": "商品下显示规格选项",
+                "th": "แสดงตัวเลือกใต้สินค้า",
+                "vi": "Hiển thị các biến thể bên dưới sản phẩm"
+              },
+              "img": "https://static.shoplineapp.com/sl_widget/img/plp_variation_img_under.jpg"
+            },
+            {
+              "description": {
+                "en": "Individually display variation images",
+                "zh-hant": "個別展示規格圖片",
+                "zh-cn": "个别展示规格图片",
+                "th": "แสดงภาพตัวเลือกแรกของสินค้า",
+                "vi": "Hiển thị riêng ảnh của từng biến thể"
+              },
+              "img": "https://static.shoplineapp.com/sl_widget/img/plp_variation_img_part.jpg"
+            }
+          ],
+          "feature_key": "expand_sku_on_plp",
+          "api": {
+            "url": "/v1/merchants/products_sku_migration_status",
+            "match": "data.status=active"
+          }
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "en": "Only merchants with the Advance Store Management Tools Module can view this effect in the storefront",
+            "zh-hant": "只有購買 進階商店與訂單管理模組 的店家可以在前台看到此效果",
+            "zh-cn": "只有购买 进阶商店管理模组 的商家可以在前台看到此效果",
+            "th": "เฉพาะร้านค้าที่มีโมดูลการจัดการร้านค้าขั้นสูงเท่านั้นจึงจะสามารถดูการเปลี่ยนแปลงนี้ได้บนหน้าร้านค้า",
+            "vi": "Chỉ người bán có mô-đun Quản lý cửa hàng nâng cao mới có thể xem hiệu ứng này trên trang cửa hàng"
+          },
+          "feature_key": "expand_sku_on_plp",
+          "api": {
+            "url": "/v1/merchants/products_sku_migration_status",
+            "match": "data.status=active"
+          }
+        },
+        {
+          "type": "radio",
+          "id": "plp_variation_display_type",
+          "label": {
+            "en": "Display type",
+            "zh-hant": "顯示類型",
+            "zh-cn": "显示类型",
+            "th": "รูปแบบการแสดง",
+            "vi": "Cách hiển thị"
+          },
+          "default": "hidden",
+          "toast": {
+            "en": "Changing the display style of product variation may take a few minutes. You can continue with other settings, or publish the page directly. The changes will be automatically applied once they are finalized.",
+            "zh-hant": "變更規格的顯示樣式需要幾分鐘的準備時間。你可以繼續其他操作，或是直接發佈設定，系統計算完成後將自動套用。",
+            "zh-cn": "变更规格的显示样式需要几分钟的准备时间。你可以继续其他操作，或是直接发布设定，系统计算完成后将自动套用。",
+            "th": "การเปลี่ยนสไตล์การแสดงตัวเลือกสินค้าอาจใช้เวลาเล็กน้อย คุณสามารถไปตั้งค่าส่วนอื่นก่อนหรือเผยแพร่หน้าเพจได้เลย การเปลี่ยนแปลงนี้จะแสดงผลโดยอัตโนมัติเมื่อประมวลผลเสร็จแล้ว",
+            "vi": "Việc thay đổi kiểu hiển thị biến thể sản phẩm sẽ mất vài phút. Bạn có thể tiếp tục với các cài đặt khác hoặc trực tiếp đăng trang này. Những thay đổi sẽ được tự động cập nhật sau khi hoàn tất."
+          },
+          "options": [
+            {
+              "label": {
+                "en": "Do not display",
+                "zh-hant": "不顯示",
+                "zh-cn": "不显示",
+                "th": "ไม่แสดง",
+                "vi": "Không hiển thị"
+              },
+              "description": {
+                "en": "Do not display product variations in any lists",
+                "zh-hant": "不在任何列表顯示商品規格",
+                "zh-cn": "不在任何列表显示商品规格",
+                "th": "ไม่แสดงตัวเลือกสินค้าในรายการใดใด",
+                "vi": "Không hiển thị các biến thể sản phẩm ở bất kỳ danh sách nào"
+              },
+              "value": "hidden"
+            },
+            {
+              "label": {
+                "en": "Display variation options under the product",
+                "zh-hant": "商品下顯示規格選項",
+                "zh-cn": "商品下显示规格选项",
+                "th": "แสดงตัวเลือกใต้สินค้า",
+                "vi": "Hiển thị các biến thể bên dưới sản phẩm"
+              },
+              "description": {
+                "en": "Supports product listing pages, advanced page widgets, promotion pages, and related products.",
+                "zh-hant": "支援商品列表頁、進階分頁元件、活動頁、相關商品",
+                "zh-cn": "支援商品列表页、进阶分页元件、活动页、相关商品",
+                "th": "รองรับในหน้ารายการสินค้า, วิดเจ็ตหน้าเพจแบบขั้นสูง, หน้าโปรโมชัน, และสินค้าที่เกี่ยวข้อง",
+                "vi": "Hỗ trợ các trang danh sách sản phẩm, trang tiện ích mở rộng, trang khuyến mại và các sản phẩm liên quan."
+              },
+              "value": "variation_image_selector"
+            },
+            {
+              "label": {
+                "en": "Individually display variation images",
+                "zh-hant": "個別展示規格圖片",
+                "zh-cn": "个别展示规格图片",
+                "th": "แสดงภาพตัวเลือกแรกของสินค้า",
+                "vi": "Hiển thị riêng ảnh của từng biến thể"
+              },
+              "description": {
+                "en": "Supports product listing pages and promotion pages. Limited to the first variation.",
+                "zh-hant": "支援商品列表頁、活動頁、限用第一組規格",
+                "zh-cn": "支援商品列表页、活动页、限用第一组规格",
+                "th": "รองรับในหน้ารายการสินค้าและหน้าโปรโมชัน ใช้ได้เฉพาะตัวเลือกแรก",
+                "vi": "Hỗ trợ các trang danh sách sản phẩm và các trang khuyến mại. Chỉ áp dụng đối với biến thể đầu tiên."
+              },
+              "value": "variation_expansion"
+            }
+          ],
+          "feature_key": "expand_sku_on_plp",
+          "api": {
+            "url": "/v1/merchants/products_sku_migration_status",
+            "match": "data.status=active"
+          }
+        },
+        {
+          "id": "plp_variation_display_variation",
+          "type": "select",
+          "label": {
+            "en": "Display image according to",
+            "zh-hant": "圖片顯示依照",
+            "zh-cn": "图片显示依照",
+            "th": "แสดงรูปภาพของ",
+            "vi": "Hiển thị hình ảnh theo"
+          },
+          "default": "1",
+          "options": [
+            {
+              "label": {
+                "en": "The first variation",
+                "zh-hant": "第一組規格",
+                "zh-cn": "第一组规格",
+                "th": "รูปแบบแรก",
+                "vi": "Thuộc tính thứ nhất"
+              },
+              "value": "1"
+            },
+            {
+              "label": {
+                "en": "The second variation",
+                "zh-hant": "第二組規格",
+                "zh-cn": "第二组规格",
+                "th": "รูปแบบที่สอง",
+                "vi": "Thuộc tính thứ hai"
+              },
+              "value": "2"
+            }
+          ],
+          "union": "plp_variation_display_type",
+          "union_data": {
+            "hidden": {
+              "show_options": []
+            },
+            "variation_image_selector": {
+              "default": "1",
+              "show_options": ["1", "2"]
+            },
+            "variation_expansion": {
+              "default": "1",
+              "show_options": ["1"]
+            }
+          },
+          "feature_key": "expand_sku_on_plp",
+          "api": {
+            "url": "/v1/merchants/products_sku_migration_status",
+            "match": "data.status=active"
+          }
+        },
+        {
+          "type": "group_end",
+          "feature_key": "expand_sku_on_plp",
+          "api": {
+            "url": "/v1/merchants/products_sku_migration_status",
+            "match": "data.status=active"
+          }
+        },
+        {
+          "type": "group_header",
+          "icon": "cart",
+          "label": {
+            "en": "Display Variation Image on Product Listing Pages",
+            "zh-hant": "商品列表顯示規格選項圖片",
+            "zh-cn": "商品列表显示规格选项图片",
+            "th": "แสดงรูปภาพตัวเลือกสินค้าในหน้ารายการสินค้า",
+            "vi": "Hiển thị hình ảnh biến thể trên các trang danh sách sản phẩm"
+          },
+          "popover": {
+            "description": {
+              "en": "Display Variation Image on Product Listing Pages",
+              "zh-hant": "商品列表顯示規格選項圖片",
+              "zh-cn": "商品列表显示规格选项图片",
+              "th": "แสดงรูปภาพตัวเลือกสินค้าในหน้ารายการสินค้า",
+              "vi": "Hiển thị hình ảnh biến thể trên các trang danh sách sản phẩm"
+            },
+            "img": "https://static.shoplineapp.com/sl_widget/img/variation_image_selector_enabled.jpg"
+          },
+          "feature_key": "!expand_sku_on_plp"
+        },
+        {
+          "type": "tags",
+          "labels": [
+            {
+              "en": "Product listing page",
+              "zh-hant": "列表頁",
+              "zh-cn": "列表页",
+              "th": "หน้ารายการสินค้า",
+              "vi": "Trang danh sách sản phẩm"
+            },
+            {
+              "en": "Advanced page widget",
+              "zh-hant": "進階分頁元件",
+              "zh-cn": "进阶分页元件",
+              "th": "วิดเจ็ตหน้าเพจขั้นสูง",
+              "vi": "Thành phần trang nâng cao"
+            },
+            {
+              "en": "Campaign page",
+              "zh-hant": "活動頁",
+              "zh-cn": "活动页",
+              "th": "หน้าแคมเปญ",
+              "vi": "Trang chiến dịch"
+            }
+          ],
+          "feature_key": "!expand_sku_on_plp"
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "en": "Only merchants with the Advance Store Management Tools Module can view this effect in the storefront",
+            "zh-hant": "只有購買 進階商店與訂單管理模組 的店家可以在前台看到此效果",
+            "zh-cn": "只有购买 进阶商店管理模组 的商家可以在前台看到此效果",
+            "th": "เฉพาะร้านค้าที่มีโมดูลการจัดการร้านค้าขั้นสูงเท่านั้นจึงจะสามารถดูการเปลี่ยนแปลงนี้ได้บนหน้าร้านค้า",
+            "vi": "Chỉ người bán có mô-đun Quản lý cửa hàng nâng cao mới có thể xem hiệu ứng này trên trang cửa hàng"
+          },
+          "feature_key": "!expand_sku_on_plp"
+        },
+        {
+          "id": "variation_image_selector_enabled",
+          "type": "switch",
+          "label": {
+            "en": "Enable",
+            "zh-hant": "開啟",
+            "zh-cn": "开启",
+            "th": "เปิดใช้งาน",
+            "vi": "Bật"
+          },
+          "default": true,
+          "feature_key": "!expand_sku_on_plp"
+        },
+        {
+          "id": "variation_image_selector_variation",
+          "type": "select",
+          "label": {
+            "en": "Display image according to",
+            "zh-hant": "圖片顯示依照",
+            "zh-cn": "图片显示依照",
+            "th": "แสดงรูปภาพของ",
+            "vi": "Hiển thị hình ảnh theo"
+          },
+          "default": "1",
+          "options": [
+            {
+              "label": {
+                "en": "The first variation",
+                "zh-hant": "第一組規格",
+                "zh-cn": "第一组规格",
+                "th": "รูปแบบแรก",
+                "vi": "Thuộc tính thứ nhất"
+              },
+              "value": "1"
+            },
+            {
+              "label": {
+                "en": "The second variation",
+                "zh-hant": "第二組規格",
+                "zh-cn": "第二组规格",
+                "th": "รูปแบบที่สอง",
+                "vi": "Thuộc tính thứ hai"
+              },
+              "value": "2"
+            }
+          ],
+          "feature_key": "!expand_sku_on_plp"
+        },
+        {
+          "type": "group_end",
+          "feature_key": "!expand_sku_on_plp"
+        },
+        {
+          "type": "group_header",
+          "icon": "cart",
+          "label": {
+            "en": "Product Name Alignment",
+            "zh-hant": "商品名稱文字對齊",
+            "zh-cn": "商品名称文字对齐",
+            "th": "การวางตำแหน่งชื่อสินค้า",
+            "vi": "Căn chỉnh tên sản phẩm"
+          },
+          "popover": {
+            "description": {
+              "en": "Product Name Alignment",
+              "zh-hant": "商品名稱文字對齊",
+              "zh-cn": "商品名称文字对齐",
+              "th": "การวางตำแหน่งชื่อสินค้า",
+              "vi": "Căn chỉnh tên sản phẩm"
+            },
+            "img": "https://static.shoplineapp.com/sl_widget/img/product_name_align.jpg"
+          }
+        },
+        {
+          "type": "tags",
+          "labels": [
+            {
+              "en": "Product listing page",
+              "zh-hant": "列表頁",
+              "zh-cn": "列表页",
+              "th": "หน้ารายการสินค้า",
+              "vi": "Trang danh sách sản phẩm"
+            },
+            {
+              "en": "Advanced page widget",
+              "zh-hant": "進階分頁元件",
+              "zh-cn": "进阶分页元件",
+              "th": "วิดเจ็ตหน้าเพจขั้นสูง",
+              "vi": "Thành phần trang nâng cao"
+            },
+            {
+              "en": "Campaign page",
+              "zh-hant": "活動頁",
+              "zh-cn": "活动页",
+              "th": "หน้าแคมเปญ",
+              "vi": "Trang chiến dịch"
+            }
+          ]
+        },
+        {
+          "id": "product_name_align",
+          "type": "text_align",
+          "default": "center"
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "cart",
+          "label": {
+            "en": "Custom Label Style",
+            "zh-hant": "自訂標籤樣式",
+            "zh-cn": "自订标签样式",
+            "th": "สไตล์ของป้ายที่กำหนดเอง",
+            "vi": "Tuỳ chỉnh kiểu nhãn dán"
+          },
+          "popover": {
+            "description": {
+              "en": "Custom Label Style",
+              "zh-hant": "自訂標籤樣式",
+              "zh-cn": "自订标签样式",
+              "th": "สไตล์ของป้ายที่กำหนดเอง",
+              "vi": "Tuỳ chỉnh kiểu nhãn dán"
+            },
+            "img": "https://static.shoplineapp.com/sl_widget/img/product_custom_label_style.jpg"
+          }
+        },
+        {
+          "type": "tags",
+          "labels": [
+            {
+              "en": "Product listing page",
+              "zh-hant": "列表頁",
+              "zh-cn": "列表页",
+              "th": "หน้ารายการสินค้า",
+              "vi": "Trang danh sách sản phẩm"
+            },
+            {
+              "en": "Advanced page widget",
+              "zh-hant": "進階分頁元件",
+              "zh-cn": "进阶分页元件",
+              "th": "วิดเจ็ตหน้าเพจขั้นสูง",
+              "vi": "Thành phần trang nâng cao"
+            },
+            {
+              "en": "Campaign page",
+              "zh-hant": "活動頁",
+              "zh-cn": "活动页",
+              "th": "หน้าแคมเปญ",
+              "vi": "Trang chiến dịch"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": {
+            "en": "You can customize the product tag (Products > Edit > Settings > Tags in the Admin)\n[Go to setting](<%=admin_domain%>/admin/<%=handle%>/products)",
+            "zh-hant": "可自訂商品標籤，請到對應商品的編輯頁 > 設定 > 標籤\n[前往設定](<%=admin_domain%>/admin/<%=handle%>/products)",
+            "zh-cn": "可自定义商品标签，请到对应商品里，编辑 > 设定 > 标签\n[前往设定](<%=admin_domain%>/admin/<%=handle%>/products)",
+            "th": "คุณสามารถปรับแต่งแท็กสินค้าได้ (ในหน้าแอดมิน ไปที่สินค้า > แก้ไข > การตั้งค่า > แท็ก)\n[ไปตั้งค่า](<%=admin_domain%>/admin/<%=handle%>/products)",
+            "vi": "Bạn có thể tùy chỉnh thẻ sản phẩm (Sản phẩm > Chỉnh sửa > Cài đặt > Thẻ trong Trang quản trị)\n[Đi đến cài đặt](<%=admin_domain%>/admin/<%=handle%>/products)"
+          }
+        },
+        {
+          "id": "product_custom_label_style",
+          "type": "select",
+          "label": {
+            "en": "Label Style",
+            "zh-hant": "標籤樣式",
+            "zh-cn": "标签样式",
+            "th": "รูปแบบฉลาก",
+            "vi": "Kiểu nhãn dán"
+          },
+          "default": "rounded-rectangle",
+          "options": [
+            {
+              "value": "rounded-rectangle",
+              "label": {
+                "en": "Rounded corners",
+                "zh-hant": "圓角",
+                "zh-cn": "圆角",
+                "th": "มุมโค้ง",
+                "vi": "Góc tròn"
+              }
+            },
+            {
+              "value": "rectangular",
+              "label": {
+                "en": "Square corners",
+                "zh-hant": "方角",
+                "zh-cn": "方角",
+                "th": "มุมเหลี่ยม",
+                "vi": "Góc vuông"
+              }
+            },
+            {
+              "value": "arrow-rectangular",
+              "label": {
+                "en": "Arrow",
+                "zh-hant": "箭頭",
+                "zh-cn": "箭头",
+                "th": "ลูกศร",
+                "vi": "Mũi tên"
+              }
+            }
+          ]
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "cart",
+          "label": {
+            "en": "Show Number of Products in the Category",
+            "zh-hant": "商品分類總數量",
+            "zh-cn": "商品分类总数量",
+            "th": "แสดงจำนวนสินค้าในหน้าหมวดหมู่",
+            "vi": "Hiển thị số lượng sản phẩm trong danh mục"
+          },
+          "popover": {
+            "description": {
+              "en": "Show Number of Products in the Category",
+              "zh-hant": "商品分類總數量",
+              "zh-cn": "商品分类总数量",
+              "th": "แสดงจำนวนสินค้าในหน้าหมวดหมู่",
+              "vi": "Hiển thị số lượng sản phẩm trong danh mục"
+            },
+            "img": "https://static.shoplineapp.com/sl_widget/img/show_products_total.jpg"
+          }
+        },
+        {
+          "type": "tags",
+          "labels": [
+            {
+              "en": "Product listing page",
+              "zh-hant": "列表頁",
+              "zh-cn": "列表页",
+              "th": "หน้ารายการสินค้า",
+              "vi": "Trang danh sách sản phẩm"
+            },
+            {
+              "en": "Campaign page",
+              "zh-hant": "活動頁",
+              "zh-cn": "活动页",
+              "th": "หน้าแคมเปญ",
+              "vi": "Trang chiến dịch"
+            }
+          ]
+        },
+        {
+          "id": "show_products_total",
+          "type": "switch",
+          "label": {
+            "en": "Enable",
+            "zh-hant": "開啟",
+            "zh-cn": "开启",
+            "th": "เปิดใช้งาน",
+            "vi": "Bật"
+          },
+          "default": false
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "cart",
+          "label": {
+            "en": "Number of Products Per Page",
+            "zh-hant": "預設每頁顯示商品數量",
+            "zh-cn": "预设每页显示商品数量",
+            "th": "จำนวนของสินค้าต่อหน้า",
+            "vi": "Số lượng sản phẩm mỗi trang"
+          },
+          "popover": {
+            "description": {
+              "en": "Number of Products Per Page",
+              "zh-hant": "預設每頁顯示商品數量",
+              "zh-cn": "预设每页显示商品数量",
+              "th": "จำนวนของสินค้าต่อหน้า",
+              "vi": "Số lượng sản phẩm mỗi trang"
+            },
+            "img": "https://static.shoplineapp.com/sl_widget/img/category_page.jpg"
+          }
+        },
+        {
+          "type": "tags",
+          "labels": [
+            {
+              "en": "Product listing page",
+              "zh-hant": "列表頁",
+              "zh-cn": "列表页",
+              "th": "หน้ารายการสินค้า",
+              "vi": "Trang danh sách sản phẩm"
+            },
+            {
+              "en": "Campaign page",
+              "zh-hant": "活動頁",
+              "zh-cn": "活动页",
+              "th": "หน้าแคมเปญ",
+              "vi": "Trang chiến dịch"
+            }
+          ]
+        },
+        {
+          "id": "category_page",
+          "type": "tabs",
+          "default": "24",
+          "options": [
+            {
+              "label": { "en": "24" },
+              "value": "24"
+            },
+            {
+              "label": { "en": "48" },
+              "value": "48"
+            },
+            {
+              "label": { "en": "72" },
+              "value": "72"
+            }
+          ],
+          "prevent_reset": true
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "cart",
+          "label": {
+            "en": "Social Network Sharing Button on the Product Page",
+            "zh-hant": "商品頁面中的社群分享按鈕",
+            "zh-cn": "商品页面中的社群分享按钮",
+            "th": "ปุ่มแชร์ลงโซเชียลบนหน้าสินค้า",
+            "vi": "Nút chia sẻ lên mạng xã hội trên trang sản phẩm"
+          },
+          "popover": {
+            "description": {
+              "en": "Social Network Sharing Button on the Product Page",
+              "zh-hant": "商品頁面中的社群分享按鈕",
+              "zh-cn": "商品页面中的社群分享按钮",
+              "th": "ปุ่มแชร์ลงโซเชียลบนหน้าสินค้า",
+              "vi": "Nút chia sẻ lên mạng xã hội trên trang sản phẩm"
+            },
+            "img": "https://static.shoplineapp.com/sl_widget/img/hide_share_buttons.jpg"
+          }
+        },
+        {
+          "type": "tags",
+          "labels": [
+            {
+              "en": "Product detail page",
+              "zh-hant": "明細頁",
+              "zh-cn": "明细页",
+              "th": "หน้ารายละเอียดสินค้า",
+              "vi": "Trang chi tiết sản phẩm"
+            }
+          ]
+        },
+        {
+          "type": "switch",
+          "id": "hide_share_buttons",
+          "label": {
+            "en": "Hide",
+            "zh-hant": "隱藏",
+            "zh-cn": "隐藏",
+            "th": "ซ่อน",
+            "vi": "Ẩn"
+          },
+          "default": true
+        },
+        {
+          "type": "group_end"
+        }
+      ]
+    },
+    {
+      "name": {
+        "en": "Others",
+        "zh-hant": "其他",
+        "zh-cn": "其他",
+        "th": "อื่นๆ",
+        "vi": "Khác"
+      },
+      "settings": [
+        {
+          "type": "group_header",
+          "icon": "dot",
+          "label": {
+            "en": "Back to up",
+            "zh-hant": "回到頁面頂端",
+            "zh-cn": "回到页面顶端",
+            "th": "กลับขึ้นไปด้านบน",
+            "vi": "Trở về đầu trang"
+          },
+          "popover": {
+            "description": {
+              "en": "Back to up",
+              "zh-hant": "回到頁面頂端",
+              "zh-cn": "回到页面顶端",
+              "th": "กลับขึ้นไปด้านบน",
+              "vi": "Trở về đầu trang"
+            },
+            "img": "https://static.shoplineapp.com/sl_widget/img/goto_top.gif"
+          }
+        },
+        {
+          "type": "switch",
+          "id": "goto_top",
+          "default": true,
+          "label": {
+            "en": "Enable",
+            "zh-hant": "開啟",
+            "zh-cn": "开启",
+            "th": "เปิดใช้งาน",
+            "vi": "Bật"
+          },
+          "info": {
+            "en": "Display “back to top” button. If there is a third-party plug-in installed manually, this button may risk being overwritten",
+            "zh-hant": "展示「回到頁面頂端」按鈕於商店前台，若自行加入第三方外掛程式，按鈕有機會被覆蓋",
+            "zh-cn": "展示「回到页面顶端」按钮于商店前台，若自行加入第三方外挂程式，按钮有机会被覆盖",
+            "th": "แสดงปุ่ม \"กลับไปด้านบนสุด\" ปุ่มนี้อาจถูกเขียนทับได้หากมีการติดตั้งปลั๊กอินภายนอก",
+            "vi": "Hiển thị nút \"Trở về đầu trang\". Nếu có một plug-in của bên thứ ba được cài đặt thủ công, nút này có thể bị thay thế"
+          }
+        },
+        {
+          "type": "group_end"
+        },
+        {
+          "type": "group_header",
+          "icon": "dot",
+          "label": {
+            "en": "Enable cookies banner",
+            "zh-hant": "啟用 cookies 授權提示",
+            "zh-cn": "启用 cookies 授权提示"
+          },
+          "popover": {
+            "description": {
+              "en": "Enable cookies banner",
+              "zh-hant": "啟用 cookies 授權提示",
+              "zh-cn": "启用 cookies 授权提示"
+            },
+            "img": "https://static.shoplineapp.com/sl_widget/img/enable_gdpr_cookies_banner.jpg"
+          }
+        },
+        {
+          "id": "enable_gdpr_cookies_banner",
+          "type": "switch",
+          "feature_key": "cookie_consent",
+          "label": {
+            "en": "Enable",
+            "zh-hant": "開啟",
+            "zh-cn": "开启"
+          },
+          "info": {
+            "en": "When checked, store visitors will see cookies consent popup",
+            "zh-hant": "啟用後，網店造訪將會看到 cookies 授權提示",
+            "zh-cn": "启用后，网店造访将会看到 cookies 授权提示"
+          },
+          "default": false,
+          "confirm_popup": {
+            "trigger_on": true,
+            "title": {
+              "en": "Confirm to enable",
+              "zh-hant": "確認啟用",
+              "zh-cn": "确认启用"
+            },
+            "description": {
+              "en": "Please note that by enabling the function, we will not activate tracking cookies until store visitors approve it, it could affect your tracking results. However, it will not hinder customers browsing/using functions on your website.",
+              "zh-hant": "若啟用此功能，網站造訪者同意授權後，網站追蹤活動才會生效，這可能會影響到你的數據追蹤結果。\n\n不過，此功能不會影響到消費者在網站的購物體驗。",
+              "zh-cn": "若启用此功能，网站造访者同意授权后，网站追踪活动才会生效，这可能会影响到你的数据追踪结果。\n\n不过，此功能不会影响到消费者在网站的购物体验。"
+            },
+            "checkbox": [
+              {
+                "en": "I understand enabling the function could effect my website tracking results.",
+                "zh-hant": "我理解在啟用此功能後，網站數據追蹤效果可能會被影響",
+                "zh-cn": "我理解在启用此功能后，网站数据追踪效果可能会被影响"
+              }
+            ]
+          }
+        },
+        {
+          "type": "group_end"
+        }
+      ]
+    }
+  ]
+}
